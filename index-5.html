@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ============ SEO ============ -->
+<title>Solar Stopped Working in the High Desert? Repair &amp; Rescue | The High Desert Solar Guy</title>
+<meta name="description" content="Solar system offline or your installer went out of business? The High Desert Solar Guy diagnoses, repairs, and reconnects orphaned solar systems in Phelan, Victorville, Hesperia, Apple Valley, Pinon Hills &amp; Wrightwood. Independent, no pressure, no sales pitch.">
+<meta name="keywords" content="solar stopped working, solar repair High Desert, solar installer went out of business, orphaned solar system, inverter repair Phelan, solar monitoring offline, Victorville solar repair, Hesperia solar repair, Apple Valley solar repair">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.highdesertsolarguy.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Solar Stopped Working in the High Desert? | The High Desert Solar Guy">
+<meta property="og:description" content="Your installer vanished. I'd never. Independent solar repair &amp; rescue for Phelan, Victorville, Hesperia, Apple Valley, Pinon Hills &amp; Wrightwood.">
+<meta property="og:url" content="https://www.highdesertsolarguy.com/">
+<meta property="og:image" content="https://www.highdesertsolarguy.com/logo.png">
+
+<!-- Local Business structured data for local SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ElectricalContractor",
+  "name": "The High Desert Solar Guy",
+  "image": "https://www.highdesertsolarguy.com/logo.png",
+  "url": "https://www.highdesertsolarguy.com/",
+  "telephone": "+1-818-636-3740",
+  "email": "HighDesertSolarGuy@gmail.com",
+  "description": "Independent solar repair and rescue specialist for orphaned solar systems in the High Desert, including systems whose original installer went out of business.",
+  "areaServed": [
+    { "@type": "City", "name": "Phelan" },
+    { "@type": "City", "name": "Pinon Hills" },
+    { "@type": "City", "name": "Wrightwood" },
+    { "@type": "City", "name": "Victorville" },
+    { "@type": "City", "name": "Hesperia" },
+    { "@type": "City", "name": "Apple Valley" },
+    { "@type": "City", "name": "Adelanto" },
+    { "@type": "City", "name": "Oak Hills" }
+  ],
+  "knowsAbout": ["solar repair", "solar inverter repair", "solar monitoring reconnection", "orphaned solar systems", "solar warranty claims"]
+}
+</script>
+
+<style>
+  :root{
+    --bg:#0a0e14;
+    --bg-2:#0e141d;
+    --surface:#141b26;
+    --surface-2:#1a2433;
+    --line:#243042;
+    --text:#e8eef6;
+    --muted:#8a98ab;
+    --amber:#ff9e2c;
+    --amber-soft:#ffb958;
+    --amber-glow:rgba(255,158,44,.18);
+    --offline:#ff5c5c;
+    --online:#33d6a6;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  a{color:inherit;text-decoration:none}
+  .container{width:100%;max-width:1120px;margin:0 auto;padding:0 24px}
+  .section-label{
+    display:inline-block;font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--amber);font-weight:600;margin-bottom:14px;
+  }
+  h1,h2,h3{line-height:1.12;letter-spacing:-.02em;font-weight:800}
+  h2{font-size:clamp(1.7rem,4vw,2.6rem);margin-bottom:18px}
+  section{padding:84px 0;border-top:1px solid var(--line)}
+  .muted{color:var(--muted)}
+
+  /* ---------- NAV ---------- */
+  header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(10,14,20,.82);backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+  .brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:1.02rem;letter-spacing:-.01em}
+  .brand img{height:34px;width:auto;display:block}
+  .nav-links{display:flex;align-items:center;gap:30px}
+  .nav-links a{font-size:.92rem;color:var(--muted);font-weight:500;transition:color .15s}
+  .nav-links a:hover{color:var(--text)}
+  .nav-call{
+    background:var(--amber);color:#1a1205;font-weight:700;padding:9px 17px;border-radius:8px;
+    font-size:.9rem;transition:transform .15s,box-shadow .15s;
+  }
+  .nav-call:hover{transform:translateY(-1px);box-shadow:0 6px 20px var(--amber-glow)}
+  .nav-toggle{display:none;background:none;border:0;color:var(--text);font-size:1.5rem;cursor:pointer}
+
+  /* ---------- HERO ---------- */
+  .hero{
+    position:relative;border-top:0;padding:96px 0 88px;overflow:hidden;
+    background:
+      radial-gradient(900px 500px at 78% -10%,var(--amber-glow),transparent 60%),
+      linear-gradient(180deg,var(--bg-2),var(--bg));
+  }
+  .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+  .hero h1{font-size:clamp(2.3rem,5.6vw,4rem);margin-bottom:22px}
+  .hero h1 .accent{color:var(--amber);display:block}
+  .hero p.lede{font-size:1.16rem;color:var(--muted);max-width:520px;margin-bottom:30px}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap}
+  .btn-primary{
+    background:var(--amber);color:#1a1205;font-weight:700;padding:14px 26px;border-radius:10px;
+    font-size:1rem;transition:transform .15s,box-shadow .15s;
+  }
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 30px var(--amber-glow)}
+  .btn-ghost{
+    border:1px solid var(--line);color:var(--text);font-weight:600;padding:14px 24px;border-radius:10px;
+    font-size:1rem;transition:border-color .15s,background .15s;
+  }
+  .btn-ghost:hover{border-color:var(--amber);background:rgba(255,158,44,.06)}
+
+  /* status card – the signature element */
+  .status-card{
+    background:linear-gradient(180deg,var(--surface),var(--surface-2));
+    border:1px solid var(--line);border-radius:16px;padding:26px;
+    box-shadow:0 30px 60px -30px rgba(0,0,0,.8);
+  }
+  .sc-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px}
+  .sc-title{font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+  .sc-dot{width:9px;height:9px;border-radius:50%;background:var(--offline);box-shadow:0 0 0 0 var(--offline);animation:pulse 2.4s infinite}
+  .sc-row{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-top:1px solid var(--line)}
+  .sc-row:first-of-type{border-top:0}
+  .sc-key{color:var(--muted);font-size:.92rem}
+  .sc-val{font-weight:700;font-size:.95rem}
+  .sc-val.bad{color:var(--offline)}
+  .sc-val.good{color:var(--online)}
+  .sc-bar{height:8px;border-radius:99px;background:#0c1119;overflow:hidden;margin-top:6px}
+  .sc-bar span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--amber),var(--online));border-radius:99px;animation:fill 7s ease-in-out infinite}
+  .sc-foot{margin-top:18px;font-size:.84rem;color:var(--muted);display:flex;gap:8px;align-items:center}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,92,92,.5)}70%{box-shadow:0 0 0 10px rgba(255,92,92,0)}100%{box-shadow:0 0 0 0 rgba(255,92,92,0)}}
+  @keyframes fill{0%,12%{width:6%}55%,100%{width:100%}}
+
+  /* ---------- PROBLEM ---------- */
+  .problem-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:34px}
+  .pcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:24px}
+  .pcard .ico{font-size:1.5rem;margin-bottom:12px}
+  .pcard h3{font-size:1.08rem;margin-bottom:8px}
+  .pcard p{font-size:.95rem;color:var(--muted)}
+
+  /* ---------- SERVICES ---------- */
+  .svc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:34px}
+  .svc{
+    background:linear-gradient(180deg,var(--surface),var(--bg-2));
+    border:1px solid var(--line);border-radius:16px;padding:28px;transition:border-color .2s,transform .2s;
+  }
+  .svc:hover{border-color:rgba(255,158,44,.45);transform:translateY(-3px)}
+  .svc .num{font-size:.8rem;font-weight:700;color:var(--amber);letter-spacing:.1em}
+  .svc h3{font-size:1.22rem;margin:10px 0 10px}
+  .svc p{color:var(--muted);font-size:.97rem}
+
+  /* ---------- STEPS ---------- */
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:34px}
+  .step{position:relative;padding-top:18px}
+  .step .n{font-size:2.6rem;font-weight:800;color:var(--surface-2);line-height:1;-webkit-text-stroke:1px var(--line)}
+  .step h3{font-size:1.1rem;margin:8px 0}
+  .step p{color:var(--muted);font-size:.95rem}
+
+  /* ---------- AREA ---------- */
+  .area-inner{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+  .city-list{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+  .chip{
+    border:1px solid var(--line);background:var(--surface);border-radius:99px;
+    padding:9px 16px;font-size:.92rem;font-weight:600;
+  }
+  .chip.hot{border-color:var(--amber);color:var(--amber-soft);background:rgba(255,158,44,.07)}
+
+  /* ---------- WHY ---------- */
+  .why-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:34px}
+  .why{display:flex;gap:14px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px}
+  .why .chk{color:var(--online);font-weight:800;flex-shrink:0}
+  .why h3{font-size:1.02rem;margin-bottom:3px}
+  .why p{color:var(--muted);font-size:.93rem}
+
+  /* ---------- CONTACT ---------- */
+  #contact{background:linear-gradient(180deg,var(--bg),var(--bg-2))}
+  .contact-inner{display:grid;grid-template-columns:1fr 1.1fr;gap:52px}
+  .contact-detail{display:flex;align-items:center;gap:12px;margin-top:16px;font-weight:600;font-size:1.02rem}
+  .contact-detail-icon{
+    width:42px;height:42px;border-radius:10px;background:var(--surface);border:1px solid var(--line);
+    display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0;
+  }
+  form{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:26px;display:flex;flex-direction:column;gap:14px}
+  .form-row{display:flex;gap:14px}
+  input,select,textarea{
+    width:100%;background:var(--bg);border:1px solid var(--line);border-radius:9px;
+    padding:13px 14px;color:var(--text);font-size:.97rem;font-family:inherit;
+  }
+  input::placeholder,textarea::placeholder{color:#5e6c7e}
+  input:focus,select:focus,textarea:focus{outline:2px solid var(--amber);outline-offset:1px;border-color:transparent}
+  textarea{min-height:96px;resize:vertical}
+  .submit-btn{background:var(--amber);color:#1a1205;font-weight:700;border:0;padding:14px;border-radius:10px;font-size:1rem;cursor:pointer;transition:transform .15s}
+  .submit-btn:hover{transform:translateY(-2px)}
+
+  /* ---------- FOOTER ---------- */
+  footer{padding:34px 0;border-top:1px solid var(--line);text-align:center;color:var(--muted);font-size:.9rem}
+  footer a:hover{color:var(--amber)}
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width:860px){
+    .nav-links{
+      display:none;position:absolute;top:68px;left:0;right:0;background:var(--bg-2);
+      flex-direction:column;align-items:flex-start;gap:0;padding:8px 24px 20px;border-bottom:1px solid var(--line);
+    }
+    .nav-links.open{display:flex}
+    .nav-links a{padding:12px 0;width:100%}
+    .nav-toggle{display:block}
+    .hero-grid,.contact-inner,.area-inner{grid-template-columns:1fr;gap:40px}
+    .problem-grid,.svc-grid,.steps,.why-grid{grid-template-columns:1fr}
+    .status-card{order:-1}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none !important;scroll-behavior:auto}
+    .sc-bar span{width:100%}
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header>
+  <div class="container nav">
+    <a class="brand" href="#top">
+      <img src="logo.png" alt="The High Desert Solar Guy logo">
+      <span>The High Desert Solar Guy</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#problem">Sound Familiar?</a>
+      <a href="#services">What I Fix</a>
+      <a href="#how">How It Works</a>
+      <a href="#area">Service Area</a>
+      <a href="#contact" class="nav-call">Call: 818.636.3740</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menu" id="navToggle">☰</button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="container hero-grid">
+    <div>
+      <div class="section-label">High Desert Solar Repair &amp; Rescue</div>
+      <h1>High Desert Solar Repair.<span class="accent">Your installer vanished. I'd never.</span></h1>
+      <p class="lede">Solar stopped working? Monitoring dark? The company that installed it gone for good? I diagnose, repair, and reconnect orphaned solar systems across Phelan, Victorville, Hesperia, Apple Valley and the High Desert — independently, with no sales pitch.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn-primary">Get my system looked at →</a>
+        <a href="tel:8186363740" class="btn-ghost">Call 818.636.3740</a>
+      </div>
+    </div>
+
+    <!-- signature: a system status panel that "reconnects" on a loop -->
+    <div class="status-card" aria-hidden="true">
+      <div class="sc-head">
+        <span class="sc-title">System Monitor</span>
+        <span class="sc-dot"></span>
+      </div>
+      <div class="sc-row"><span class="sc-key">Status</span><span class="sc-val bad">OFFLINE</span></div>
+      <div class="sc-row"><span class="sc-key">Original Installer</span><span class="sc-val bad">Out of Business</span></div>
+      <div class="sc-row"><span class="sc-key">Production today</span><span class="sc-val">0.0 kWh</span></div>
+      <div class="sc-row" style="display:block">
+        <span class="sc-key">Reconnecting…</span>
+        <div class="sc-bar"><span></span></div>
+      </div>
+      <div class="sc-foot">⚡ Bringing it back online — that's the job.</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEM -->
+<section id="problem">
+  <div class="container">
+    <div class="section-label">Sound Familiar?</div>
+    <h2>The High Desert is full of orphaned solar.</h2>
+    <p class="muted" style="max-width:640px">During the boom, dozens of installers came through Phelan, Victorville and Hesperia selling panels — then folded. When something breaks, there's no one to call. The warranty paperwork leads to a disconnected number. Sound about right?</p>
+    <div class="problem-grid">
+      <div class="pcard">
+        <div class="ico">📉</div>
+        <h3>Your bill crept back up</h3>
+        <p>The panels are on the roof but the savings disappeared. Often it's a tripped or failed inverter quietly producing nothing.</p>
+      </div>
+      <div class="pcard">
+        <div class="ico">📵</div>
+        <h3>The app went dark</h3>
+        <p>Monitoring shows offline, "no data," or won't log in. Sometimes the system still works — sometimes it doesn't. You can't tell, and neither can the dead company.</p>
+      </div>
+      <div class="pcard">
+        <div class="ico">🏚️</div>
+        <h3>Your installer is gone</h3>
+        <p>Out of business, ghosting your calls, or never licensed to begin with. You're stuck with hardware and no one accountable for it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <div class="section-label">High Desert Solar Services</div>
+    <h2>Diagnosis first. Honest answers always.</h2>
+    <p class="muted" style="max-width:640px">I start every job the same way: figure out what's actually wrong before anyone spends a dollar on parts. Then the right licensed tradesperson does the hands-on work.</p>
+    <div class="svc-grid">
+      <div class="svc">
+        <div class="num">01 · DIAGNOSTICS</div>
+        <h3>System diagnostic &amp; health check</h3>
+        <p>On-site inspection of panels, wiring, and inverter. I tell you in plain English what's working, what isn't, and what it'll take to fix — no upsell.</p>
+      </div>
+      <div class="svc">
+        <div class="num">02 · INVERTER</div>
+        <h3>Inverter repair &amp; replacement</h3>
+        <p>The #1 failure point, especially in High Desert heat. I coordinate licensed C-10 electricians for any inverter or grid-tied work that requires it.</p>
+      </div>
+      <div class="svc">
+        <div class="num">03 · MONITORING</div>
+        <h3>Monitoring reconnection</h3>
+        <p>Get your production data back. I re-establish monitoring on Enphase, SolarEdge, Tesla and other platforms so you can actually see what your system is doing.</p>
+      </div>
+      <div class="svc">
+        <div class="num">04 · WARRANTY</div>
+        <h3>Warranty &amp; manufacturer claims</h3>
+        <p>Even if your installer is gone, the panel and inverter manufacturers' warranties often aren't. I help you track them down and file the claim.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how">
+  <div class="container">
+    <div class="section-label">How It Works</div>
+    <h2>Simple, and on your side.</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="n">1</div>
+        <h3>Tell me what's going on</h3>
+        <p>Call, text, or fill out the form below. Describe the symptoms — dark app, higher bill, no idea — whatever you've got.</p>
+      </div>
+      <div class="step">
+        <div class="n">2</div>
+        <h3>I diagnose the system</h3>
+        <p>I come out to your home in the High Desert, run a full check, and give you a straight answer on what's wrong and what it costs.</p>
+      </div>
+      <div class="step">
+        <div class="n">3</div>
+        <h3>We bring it back online</h3>
+        <p>I coordinate the right licensed pros, manage the repair, and confirm your system is producing again before we call it done.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE AREA -->
+<section id="area">
+  <div class="container area-inner">
+    <div>
+      <div class="section-label">Service Area</div>
+      <h2>Solar repair across the High Desert.</h2>
+      <p class="muted">Based out here and covering the communities most often left behind by the installers who folded. If you're nearby and not listed, just ask — chances are I can help.</p>
+      <div class="city-list">
+        <span class="chip hot">Phelan</span>
+        <span class="chip hot">Pinon Hills</span>
+        <span class="chip hot">Wrightwood</span>
+        <span class="chip">Victorville</span>
+        <span class="chip">Hesperia</span>
+        <span class="chip">Apple Valley</span>
+        <span class="chip">Oak Hills</span>
+        <span class="chip">Adelanto</span>
+        <span class="chip">Oro Grande</span>
+        <span class="chip">Spring Valley Lake</span>
+      </div>
+    </div>
+    <div>
+      <!-- WHY ME -->
+      <div class="why-grid">
+        <div class="why"><span class="chk">✓</span><div><h3>Independent</h3><p>I don't sell new systems. No commission, no pressure — just a fix.</p></div></div>
+        <div class="why"><span class="chk">✓</span><div><h3>14 years in solar</h3><p>I've seen every failure mode these systems throw.</p></div></div>
+        <div class="why"><span class="chk">✓</span><div><h3>Licensed pros</h3><p>Hands-on work is done by licensed, insured tradespeople.</p></div></div>
+        <div class="why"><span class="chk">✓</span><div><h3>Plain English</h3><p>You'll always know what's wrong and why — no jargon games.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-inner">
+      <div>
+        <div class="section-label">Get in Touch</div>
+        <h2>Let's get your solar working again.</h2>
+        <p class="muted">Tell me what your system is doing (or not doing). There's no cost to ask and no pressure — I'll point you the right way even if it's not a job for me.</p>
+        <a href="tel:8186363740" class="contact-detail">
+          <span class="contact-detail-icon">📞</span> 818.636.3740
+        </a>
+        <a href="mailto:David@TheValleySolarGuy.com" class="contact-detail">
+          <span class="contact-detail-icon">✉️</span> HighDesertSolarGuy@gmail.com
+        </a>
+      </div>
+      <form action="https://formspree.io/f/xaqgyqgq" method="POST">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="text" name="city" placeholder="City (e.g. Phelan)">
+        </div>
+        <input type="email" name="email" placeholder="Email address" required>
+        <input type="tel" name="phone" placeholder="Phone number">
+        <select name="issue">
+          <option value="" disabled selected>What's happening with your system?</option>
+          <option value="offline">Monitoring is offline / app won't load</option>
+          <option value="bill">My bill went back up</option>
+          <option value="installer-gone">My installer went out of business</option>
+          <option value="inverter">I think the inverter failed</option>
+          <option value="other">Something else / not sure</option>
+        </select>
+        <textarea name="message" placeholder="Tell me a bit more (optional)"></textarea>
+        <button type="submit" class="submit-btn">Send Message →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    © 2026 The High Desert Solar Guy &nbsp;·&nbsp;
+    <a href="tel:8186363740">818.636.3740</a> &nbsp;·&nbsp;
+    <a href="mailto:HighDesertSolarGuy@gmail.com">HighDesertSolarGuy@gmail.com</a>
+    <br><span style="font-size:.82rem">Independent solar repair &amp; rescue — Phelan, Victorville, Hesperia, Apple Valley, Pinon Hills &amp; the High Desert.</span>
+  </div>
+</footer>
+
+<script>
+  // Mobile nav toggle
+  var t=document.getElementById('navToggle'),l=document.getElementById('navLinks');
+  t.addEventListener('click',function(){l.classList.toggle('open')});
+  l.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){l.classList.remove('open')})});
+</script>
+</body>
+</html>
